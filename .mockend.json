@@ -24,4 +24,4 @@
         "quantity": "int",
         "price": "int"
     }
-  }
+}
