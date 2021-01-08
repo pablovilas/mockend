@@ -1,0 +1,27 @@
+{
+    "User": {
+        "id": "int",
+        "name": "string",
+        "lastName": "string"
+    },
+    "Vendor": {
+        "id": "int",
+        "name": "string",
+        "active": "boolean"
+    },
+    "Order": {
+        "id": "int",
+        "createdAt": "date",
+        "confirmed": "boolean",
+        "total": "int",
+        "products": "Product[]",
+        "vendor": "Vendor",
+        "user": "User"
+    },
+    "Product": {
+        "id": "int",
+        "name": "string",
+        "quantity": "int",
+        "price": "int"
+    }
+  }
