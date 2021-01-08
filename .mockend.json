@@ -9,6 +9,12 @@
         "name": "string",
         "active": "boolean"
     },
+    "Product": {
+        "id": "int",
+        "name": "string",
+        "quantity": "int",
+        "price": "int"
+    },
     "Order": {
         "id": "int",
         "createdAt": "date",
@@ -17,11 +23,5 @@
         "products": "Product[]",
         "vendor": "Vendor",
         "user": "User"
-    },
-    "Product": {
-        "id": "int",
-        "name": "string",
-        "quantity": "int",
-        "price": "int"
     }
 }
